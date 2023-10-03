@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BYkBNC2NPpLmN4A60LWVH+UVrRjnSZ8/ARbvQsrxeKD7wqtTur/ig1cWfyZnZLyWS6YwGpCZsFlaKeCAy+J7SA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vlad\\source\\repos\\AspLesson5\\AspLesson5\\AspLesson5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

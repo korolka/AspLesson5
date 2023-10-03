@@ -1,0 +1,31 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+<body>
+    <p>People in the gym:<span id="visitorCount">@Model</span></p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        //$(window).on('unload', function () {
+        //    $.ajax({
+        //        url: '/Counter/Decrease',
+        //        type: 'POST',
+        //        async: false, // Синхронный запрос
+        //        success: function (data) {
+        //            // Обновите значение счетчика, если это необходимо
+        //            $('#visitorCount').text(data);
+        //        }
+        //    });
+        //});
+
+        $.ajax(
+            {
+                url: '/Counter/Increase',
+                type: 'POST',
+                Success: function (data) {
+                    $('#visitorCount').text(data);
+                }
+            }
+        );
+    </script>
+
+</body>
+</html>

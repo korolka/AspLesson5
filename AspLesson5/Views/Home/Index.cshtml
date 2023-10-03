@@ -1,0 +1,20 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<html>
+    <body>
+    <form asp-controller="Home" asp-action="Index">
+        <div>
+            <label>Value</label>
+            <input name="value" type="text" />
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="datetime-local" name="date"  />
+        </div>
+        <div>
+            <input type= "submit" />
+        </div>
+    </form>
+    <a asp-action="GetValue">View result</a>
+    </body>
+</html>
